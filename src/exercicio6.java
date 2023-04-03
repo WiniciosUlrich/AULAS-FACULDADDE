@@ -13,7 +13,7 @@ public class exercicio6 {
     
         //processo
         Double comissão = Vendas * 15 / 100;
-        Double aReceber = SalBase + comissão;
+       // Double aReceber = SalBase + comissão;
 
         //saida
         System.out.println("Vendedor:" +Nome+"A Receber" + df_2.format(SalBase+comissão));

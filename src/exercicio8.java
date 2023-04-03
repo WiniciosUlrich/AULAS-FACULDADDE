@@ -1,20 +1,20 @@
-import java.text.DecimalFormat;
+
 import java.util.Scanner;
 public class exercicio8 {
     public static void main(String[] args)
     {
       //entrada
         Scanner teclado = new Scanner(System.in);  
-        DecimalFormat df_2 = new DecimalFormat ("0.00");
+        
         System.out.println("Informe o codigo de peça 1");
-        int codPeca1 = teclado.nextInt();
+        //int codPeca1 = teclado.nextInt();
         System.out.println("Informe o numero de peça 1");
         int nrPeca1 = teclado.nextInt();
         System.out.println("Informe o valor unitario da peça 1");
         Double vlrPeca1 = teclado.nextDouble();
 
         System.out.println("Informe o codigo de peça 2");
-        int codPeca2 = teclado.nextInt();
+        //int codPeca2 = teclado.nextInt();
         System.out.println("Informe o numero de peça 2");
         int nrPeca2 = teclado.nextInt();
         System.out.println("Informe o valor unitario da peça 2");
